@@ -1,10 +1,15 @@
 @charset "UTF-8";
 
+/* ====== Conf. Global ====== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/* ====== Div que engloba todo o conteudo */
 
 div#container {
 
@@ -14,6 +19,12 @@ div#container {
     background-color: rgba(176, 176, 109, 0.317);
     margin-top: 10px;
 }
+
+/* ====== FIM - Div que engloba todo o conteudo */
+
+
+
+/* ====== Cabeçario e Menu ====== */
 
 header {
 
@@ -27,6 +38,8 @@ header {
     padding-top: 5px;
     
 }
+
+/* ====== LOGO ====== */
 
 .cubo {
 
@@ -74,3 +87,6 @@ div.borda {
     height: 120px;
     margin: auto;
 }
+
+
+/* ====== FIM - Cabeçario e Menu ====== */
