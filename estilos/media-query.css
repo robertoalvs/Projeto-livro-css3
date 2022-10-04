@@ -127,6 +127,29 @@
 
         border-bottom: 2px dotted black;
     }
+    
+    aside {
+
+        width: 98%;
+        margin-right: 3px;
+        margin-bottom: 10px;
+    }
+
+    div#sidebar {
+
+        width: 98%;
+    }
+
+    footer {
+
+        width: 98%;
+        margin-left: 6.2px;
+    }
+
+    #sidebar p {
+
+        font-size: 1.299em;
+    }
 }
 
 /* ====================== FIM 500px =====================================*/
