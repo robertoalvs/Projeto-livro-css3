@@ -184,7 +184,7 @@
         position: absolute;
         top: 85px;
         left: 71px;
-        gap: 10px;
+        gap: 15px;
     }
 
     nav >ul >li {
@@ -275,6 +275,35 @@
     p.borda {
 
         border-bottom: 2px dotted black;
+    }
+
+    aside {
+
+        width: 98%;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+    div#sidebar {
+
+        width: 98%;
+    }
+
+    footer {
+
+        width: 98%;
+        margin-left: 6.3px;
+    }
+
+    #sidebar p {
+
+        font-size: 1.3em;
+    }
+
+    div#sidebar span {
+        padding-left: 90px;
+        margin-right: 90px;
+        
     }
 }
 
