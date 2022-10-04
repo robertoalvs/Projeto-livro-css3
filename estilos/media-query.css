@@ -36,6 +36,11 @@
         color: white;
     }
 
+    nav >ul ul.sub-menu4 li {
+
+        width: 78px;
+    }
+
     h1 {
 
         color: white;

@@ -107,11 +107,10 @@ nav >ul ul li {
 }
 
 
-nav >ul li.menu1:hover ul {
+nav >ul li.menu1:hover ul, li.menu2:hover ul, li.menu3:hover ul, li.menu4:hover ul {
 
     visibility: visible;
 }
-
 
 div.borda {
 
