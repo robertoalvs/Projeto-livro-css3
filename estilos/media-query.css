@@ -142,18 +142,20 @@
 
     div#sidebar {
 
-        width: 98%;
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    #sidebar p {
+
+        font-size: 1.299em;
+        text-transform: lowercase;
     }
 
     footer {
 
         width: 98%;
         margin-left: 6.2px;
-    }
-
-    #sidebar p {
-
-        font-size: 1.299em;
     }
 }
 
@@ -296,13 +298,8 @@
 
     div#sidebar {
 
-        width: 98%;
-    }
-
-    footer {
-
-        width: 98%;
-        margin-left: 6.3px;
+        width: 95%;
+        margin-left: 13px;
     }
 
     #sidebar p {
@@ -310,10 +307,22 @@
         font-size: 1.3em;
     }
 
-    div#sidebar span {
+    /*div#sidebar span {
         padding-left: 90px;
         margin-right: 90px;
         
+    }*/
+
+    #sidebar p {
+
+        font-size: 1.4em;
+        text-transform: lowercase;
+    }
+
+    footer {
+
+        width: 98%;
+        margin-left: 6.3px;
     }
 }
 
@@ -347,7 +356,8 @@
         position: absolute;
         top: 85px;
         left: 71px;
-        gap: 10px;
+        gap: 20px;
+        
     }
 
     nav >ul >li {
@@ -392,5 +402,26 @@
         padding-bottom: 15px;
         text-align: start;
 
+    }
+
+    div#sidebar {
+
+        width: 95%;
+        margin-left: 17px;
+    }
+
+    /*div#sidebar span {
+
+        display: block;
+        text-align: center;
+        padding: 0;
+    }*/
+
+    #sidebar p {
+
+        font-size: 1.4em;
+        text-transform: lowercase;
+        text-align: center;
+    
     }
 }
