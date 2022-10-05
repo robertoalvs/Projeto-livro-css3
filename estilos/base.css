@@ -100,7 +100,6 @@ nav >ul li.menu1, li.menu2, li.menu3, li.menu4 {
     border: 1px solid rgb(240,246,245);
     padding: 4px 7px 5px 7px;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 nav >ul ul {
@@ -258,8 +257,8 @@ div#sidebar {
     color: white;
     font-size: 0.98em;
     text-align: center; 
-    margin-left: -9px;
-    margin-right: -9px; 
+    margin-left: -10px;
+    margin-right: -8px; 
     display: block;
     border-radius: 5px;
 }
