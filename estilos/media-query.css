@@ -458,6 +458,29 @@ High-res laptop or desktop: 1920 x 1080.
     }
 }
 
+@media screen and (min-width: 769px) and (max-width: 991px){
+        
+    main {
+
+        width: 98%;
+    }
+
+    aside {
+
+        width: 95%;
+        margin-bottom: 10px;
+        margin-right: 22px;
+    }
+
+    #sidebar p {
+
+        font-size: 1.2em;
+        text-transform: lowercase;
+        text-align: center;
+    
+    }
+
+}
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
 
@@ -465,6 +488,7 @@ High-res laptop or desktop: 1920 x 1080.
 
         height: 867px;
     }
+
     div#sidebar {
 
         width: 95%;
