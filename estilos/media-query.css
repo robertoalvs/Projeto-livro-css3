@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
+
+
+
+
+/* Versão para todas as mídias */
+
+/* Typical Device Breakponits
+==================================
+
+Pequenas Telas: Até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px ate 1200px
+Grandes Telas: Acima de 1200px
+
+
+Atual 2022
+
+
+Mobile: 360 x 640.
+Mobile: 375 x 667.
+Mobile: 360 x 720.
+iPhone X: 375 x 812.
+Pixel 2: 411 x 731.
+Tablet: 768 x 1024.
+Laptop: 1366 x 768.
+High-res laptop or desktop: 1920 x 1080.
+*/
+
+
+
+
 @media screen and (max-width: 500px) and (orientation: portrait){
     
     div#container {
@@ -423,5 +455,20 @@
         text-transform: lowercase;
         text-align: center;
     
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+    aside {
+
+        height: 867px;
+    }
+    div#sidebar {
+
+        width: 95%;
+        height: 98.5%;
+        margin-left: 7px;
     }
 }
