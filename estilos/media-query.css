@@ -501,7 +501,12 @@ High-res laptop or desktop: 1920 x 1080.
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
+    nav >ul ul.sub-menu4 li {
 
+        width: 85px;
+    }
+
+    
     aside {
 
         height: 870.8px;
