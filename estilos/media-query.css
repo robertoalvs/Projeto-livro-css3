@@ -70,7 +70,7 @@ High-res laptop or desktop: 1920 x 1080.
 
     nav >ul ul.sub-menu4 li {
 
-        width: 78px;
+        width: 85px;
     }
 
     h1 {
@@ -229,6 +229,11 @@ High-res laptop or desktop: 1920 x 1080.
     nav >ul >li {
 
         color: white;
+    }
+
+    nav >ul ul.sub-menu4 li {
+
+        width: 85px;
     }
 
     h1 {
