@@ -219,6 +219,13 @@ h3 {
     margin: 10px;
     box-shadow: 0px 0px 10px 0px black;
     border: 1px solid black;
+    transition: width 1s 0.5s, heigth 1s;
+}
+
+.img-sec3:hover {
+
+    width: 300px;
+    height: 400px;
 }
 /* =================== FIM SESSÕES ===============*/
 
