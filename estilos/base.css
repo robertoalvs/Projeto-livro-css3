@@ -49,6 +49,13 @@ header {
     transition: font-size 1s 1s;
 }
 
+
+span.logo-blue > a:visited {
+
+    color: blue;
+}
+
+
 .logo-blue:hover {
 
     font-size: 1.9em;
@@ -93,11 +100,13 @@ h1 {
 
 a {
     text-decoration: none;
+    color: white;
 }
+
 
 a:visited {
 
-    color: blue;
+    color: white;
 }
 
 /* =================== FIM CABEÇARIO ===============*/
@@ -108,9 +117,9 @@ a:visited {
 nav > ul {
 
     display: flex;
-    gap: 20px;
+    gap: 13px;
     margin-right: 141px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 
@@ -120,9 +129,11 @@ nav >ul li.menu1, li.menu2, li.menu3, li.menu4 {
     color: #26511d;
     border-radius: 0 7px 0 7px;
     background-color: rgba(240,246,245,.75);
-    border: 1px solid rgb(240,246,245);
+    border: 3px solid rgba(240, 246, 245, 0.466);
     padding: 4px 7px 5px 7px;
+    border-style: groove;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 nav >ul ul {
@@ -151,11 +162,19 @@ nav >ul ul li {
     border: 1px solid black;
     margin-bottom: 5px;
     box-shadow: 0px 0px 10px 0px black;
+    text-align: center;
+    border-radius: 0 7px 0 7px;
 }
 
 nav >ul li.menu1:hover ul, li.menu2:hover ul, li.menu3:hover ul, li.menu4:hover ul {
 
     visibility: visible;
+}
+
+nav > ul li.menu1:hover, li.menu2:hover, li.menu3:hover, li.menu4:hover {
+
+    background-color: rgba(165, 42, 42, 0.164);
+    color: bisque;
 }
 /* =============== FIM MENU NAVEGAÇÃO =============*/
 
