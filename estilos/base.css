@@ -113,6 +113,7 @@ nav >ul li.menu1, li.menu2, li.menu3, li.menu4 {
     padding: 4px 7px 5px 7px;
     border-style: groove;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
     
 }
 
@@ -150,6 +151,7 @@ nav >ul ul li {
 nav >ul li.menu1:hover ul, li.menu2:hover ul, li.menu3:hover ul, li.menu4:hover ul {
 
     visibility: visible;
+    cursor: pointer;
 }
 
 
