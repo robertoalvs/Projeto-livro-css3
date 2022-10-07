@@ -330,6 +330,23 @@ aside h3 {
 
 
 /* =================== RODAPÉ ===============*/
+
+div#footer2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: #476341;
+    border-radius: 10px;
+    width: 98%;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 16px;
+}
+
 footer {
 
     width: 100%;
@@ -340,7 +357,21 @@ footer {
     clear: both;
 }
 
-footer > p {
+div#footer2 > p {
+
+    color: white;
+}
+
+div#footer2 > ul li {
+
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 4px;
+    list-style: none;
+    margin: 0;
+}
+
+ /* footer > p {
 
     background-color: #476341;
     border-radius: 10px;
@@ -351,5 +382,5 @@ footer > p {
     padding-left: 20px;
     padding-top: 5px;
     color: white;
-}
+} */
 /* =================== FIM RODAPÉ ===============*/

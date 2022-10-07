@@ -189,6 +189,29 @@ High-res laptop or desktop: 1920 x 1080.
         width: 98%;
         margin-left: 6.2px;
     }
+    
+    div#footer2 {
+
+        width: 98%;
+        height: 35px;
+    }
+
+    div#footer2 > p {
+
+       font-size: 0.8em;
+       color: white;
+    }
+
+    div#footer2 > ul li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .img-sociais {
+
+        width: 24px;
+        height: 24px;
+    }
 }
 
 /* ====================== FIM 500px =====================================*/
