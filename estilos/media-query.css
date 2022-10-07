@@ -47,7 +47,7 @@ High-res laptop or desktop: 1920 x 1080.
     nav > ul {
     
         position: absolute;
-        top: 88px;
+        top: 86px;
         left: 70px;
         gap: 10px;
         margin-right: 5px;
@@ -239,7 +239,7 @@ High-res laptop or desktop: 1920 x 1080.
     
         display: flex;
         position: absolute;
-        top: 88px;
+        top: 86px;
         left: 71px;
         gap: 15px;
     }
