@@ -173,12 +173,6 @@ span.logo-blue  a:visited {
 
     color: blue;
 }
-
-/* a:visited {
-
-    color: white;
-} */
-
 /* ================ FIM LINKS ===================== */
 
 
@@ -272,8 +266,6 @@ h3 {
 
     transform: scale(2) translateX(90px);
 }
-
-
 /* =================== FIM SESSÕES ===============*/
 
 
@@ -376,16 +368,4 @@ div#footer2 > ul.redes-sociais {
     display: flex;
     gap: 10px;
 }
- /* footer > p {
-
-    background-color: #476341;
-    border-radius: 10px;
-    width: 98%;
-    height: 30px;
-    margin: auto;
-    margin-top: 10px;
-    padding-left: 20px;
-    padding-top: 5px;
-    color: white;
-} */
 /* =================== FIM RODAPÉ ===============*/
