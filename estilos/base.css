@@ -169,14 +169,13 @@ a {
     color: white;
 }
 
-span.logo-blue > a:visited {
+span.logo-blue  a:visited {
 
     color: blue;
 }
 
 a:visited {
 
-    color: white;
 }
 /* ================ FIM LINKS ===================== */
 
