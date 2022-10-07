@@ -49,13 +49,6 @@ header {
     transition: font-size 1s 1s;
 }
 
-
-span.logo-blue > a:visited {
-
-    color: blue;
-}
-
-
 .logo-blue:hover {
 
     font-size: 1.9em;
@@ -97,18 +90,6 @@ h1 {
     font-size: 3em;
     text-shadow: 0px 1px 2px rgba(254, 250, 250, 0.559);
 }
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-
-a:visited {
-
-    color: white;
-}
-
 /* =================== FIM CABEÇARIO ===============*/
 
 
@@ -166,10 +147,12 @@ nav >ul ul li {
     border-radius: 0 7px 0 7px;
 }
 
+
 nav >ul li.menu1:hover ul, li.menu2:hover ul, li.menu3:hover ul, li.menu4:hover ul {
 
     visibility: visible;
 }
+
 
 nav > ul li.menu1:hover, li.menu2:hover, li.menu3:hover, li.menu4:hover {
 
@@ -177,6 +160,25 @@ nav > ul li.menu1:hover, li.menu2:hover, li.menu3:hover, li.menu4:hover {
     color: bisque;
 }
 /* =============== FIM MENU NAVEGAÇÃO =============*/
+
+
+
+/* =========== LINKS ===================== */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+span.logo-blue > a:visited {
+
+    color: blue;
+}
+
+a:visited {
+
+    color: white;
+}
+/* ================ FIM LINKS ===================== */
 
 
 
