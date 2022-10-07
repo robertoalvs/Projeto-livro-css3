@@ -174,9 +174,11 @@ span.logo-blue  a:visited {
     color: blue;
 }
 
-a:visited {
+/* a:visited {
 
-}
+    color: white;
+} */
+
 /* ================ FIM LINKS ===================== */
 
 
