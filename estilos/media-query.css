@@ -41,7 +41,7 @@ High-res laptop or desktop: 1920 x 1080.
         display: block;
         position: absolute;
         top: 15px;
-        left: 40px;
+        left: 22px;
         width: 60px;
         height: 60px;
     }
@@ -72,7 +72,7 @@ High-res laptop or desktop: 1920 x 1080.
         display: inline-block;
         position: absolute;
         top: 29px;
-        left: 90px;
+        left: 75px;
         font-size: 2em;
     }
 
@@ -234,7 +234,7 @@ High-res laptop or desktop: 1920 x 1080.
         display: block;
         position: absolute;
         top: 14px;
-        left: 40px;
+        left: 22px;
         width: 60px;
         height: 60px;
     }
@@ -264,7 +264,7 @@ High-res laptop or desktop: 1920 x 1080.
         display: inline-block;
         position: absolute;
         top: 29px;
-        left: 90px;
+        left: 75px;
         font-size: 2em;
     }
 
@@ -415,7 +415,7 @@ High-res laptop or desktop: 1920 x 1080.
         display: block;
         position: absolute;
         top: 14px;
-        left: 40px;
+        left: 22px;
         width: 60px;
         height: 60px;
     }
@@ -441,7 +441,7 @@ High-res laptop or desktop: 1920 x 1080.
         display: inline-block;
         position: absolute;
         top: 29px;
-        left: 90px;
+        left: 75px;
         font-size: 2em;
     }
 
