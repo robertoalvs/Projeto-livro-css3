@@ -41,7 +41,9 @@ High-res laptop or desktop: 1920 x 1080.
         display: block;
         position: absolute;
         top: 15px;
-        left: 25px;
+        left: 40px;
+        width: 60px;
+        height: 60px;
     }
 
     nav > ul {
@@ -231,8 +233,10 @@ High-res laptop or desktop: 1920 x 1080.
 
         display: block;
         position: absolute;
-        top: 12px;
-        left: 25px;
+        top: 14px;
+        left: 40px;
+        width: 60px;
+        height: 60px;
     }
 
     nav > ul {
@@ -410,8 +414,10 @@ High-res laptop or desktop: 1920 x 1080.
 
         display: block;
         position: absolute;
-        top: 12px;
-        left: 25px;
+        top: 14px;
+        left: 40px;
+        width: 60px;
+        height: 60px;
     }
 
     nav > ul {

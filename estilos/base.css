@@ -73,19 +73,33 @@ header {
     align-items: center;
     margin-right: -90px;
     margin-left: 46px;
+    width: 70px;
+    height: 70px;
     /* transition: transform 0.5s; */
-    transition: transform 1s;
+    /* transition: transform 1s; */
 }
 
-.cubo:hover {
+/* .cubo:hover {
 
-    /* transform: scale(2); */
+    transform: scale(2);
     transform: rotateY(360deg);
+} */
+
+.cubo-animado {
+
+    animation: piscando 2s linear infinite;
+}
+
+@keyframes piscando {
+
+    0% {opacity: 1;}
+    50% {opacity: 0.2;}
+    100% {opacity: 1;}
 }
 
 h1 {
 
-    margin-left: 30px;
+    margin-left: 50px;
     font-size: 3em;
     text-shadow: 0px 1px 2px rgba(254, 250, 250, 0.559);
 }
@@ -159,6 +173,25 @@ nav > ul li.menu1:hover, li.menu2:hover, li.menu3:hover, li.menu4:hover {
 
     background-color: rgba(165, 42, 42, 0.164);
     color: bisque;
+}
+
+
+/* ==================== Animation ========================== */
+nav > ul li.animacao:hover {
+
+    animation: fadein 2s linear;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+
+nav >ul ul.sub-anime {
+
+
 }
 /* =============== FIM MENU NAVEGAÇÃO =============*/
 
