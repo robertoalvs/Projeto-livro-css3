@@ -188,6 +188,9 @@ nav > ul li.animacao:hover {
 a {
     text-decoration: none;
     color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 span.logo-blue  a:visited {
