@@ -385,7 +385,7 @@ div#footer2 > ul li {
     margin: 0;
 }
 
-div#footer2 > ul.redes-sociais {
+div#footer2 > ul.redes-sociais .img{
 
     display: flex;
     gap: 10px;
