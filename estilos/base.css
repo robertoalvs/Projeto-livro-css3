@@ -79,15 +79,9 @@ header {
     /* transition: transform 1s; */
 }
 
-/* .cubo:hover {
-
-    transform: scale(2);
-    transform: rotateY(360deg);
-} */
-
 .cubo-animado {
 
-    animation: piscando 2s linear infinite;
+    animation: piscando 3s linear infinite;
 }
 
 @keyframes piscando {
@@ -185,13 +179,6 @@ nav > ul li.animacao:hover {
 @keyframes fadein {
     from {opacity: 0;}
     to {opacity: 1;}
-}
-
-
-
-nav >ul ul.sub-anime {
-
-
 }
 /* =============== FIM MENU NAVEGAÇÃO =============*/
 
