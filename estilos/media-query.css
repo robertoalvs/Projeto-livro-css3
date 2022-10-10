@@ -508,6 +508,17 @@ High-res laptop or desktop: 1920 x 1080.
         width: 63.5%;
     }
 
+    .cubo {
+        top: 20px;
+        left: 45px;
+        
+    }
+
+    h1 {
+        top: 10px;
+        left: 125px;
+    }
+
     nav .menu-principal {
 
         position: absolute;
@@ -532,8 +543,7 @@ High-res laptop or desktop: 1920 x 1080.
 
     #sidebar p {
 
-        font-size: 1.2em;
-        text-transform: lowercase;
+        font-size: 1em;
         text-align: center;
     }
 
