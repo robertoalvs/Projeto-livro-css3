@@ -195,19 +195,10 @@ High-res laptop or desktop: 1920 x 1080.
        color: white;
     }
 
-    div#footer2 > ul li {
-       
-    }
-
     .img-sociais {
 
         width: 24px;
         height: 24px;
-    }
-
-    div#footer2 > ul.redes-sociais {
-
-        gap: 5px;
     }
 }
 /* ====================== FIM 500px =====================================*/
