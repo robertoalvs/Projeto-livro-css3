@@ -41,9 +41,9 @@ High-res laptop or desktop: 1920 x 1080.
         display: block;
         position: absolute;
         top: 15px;
-        left: 22px;
-        width: 60px;
-        height: 60px;
+        left: 33px;
+        width: 99px;
+        height: 62px;
     }
 
     nav > ul {
@@ -71,9 +71,9 @@ High-res laptop or desktop: 1920 x 1080.
         color: white;
         display: inline-block;
         position: absolute;
-        top: 29px;
-        left: 75px;
-        font-size: 2em;
+        top: 0px;
+        left: 115px;
+        font-size: 2.2em;
     }
 
     h3 {
@@ -229,9 +229,9 @@ High-res laptop or desktop: 1920 x 1080.
         display: block;
         position: absolute;
         top: 14px;
-        left: 22px;
-        width: 60px;
-        height: 60px;
+        left: 33px;
+        width: 99px;
+        height: 62px;
     }
 
     nav > ul {
@@ -258,9 +258,9 @@ High-res laptop or desktop: 1920 x 1080.
         color: white;
         display: inline-block;
         position: absolute;
-        top: 29px;
-        left: 75px;
-        font-size: 2em;
+        top: 0px;
+        left: 115px;
+        font-size: 2.2em;
     }
 
     h3 {
@@ -409,10 +409,10 @@ High-res laptop or desktop: 1920 x 1080.
 
         display: block;
         position: absolute;
-        top: 14px;
-        left: 22px;
-        width: 60px;
-        height: 60px;
+        top: 9px;
+        left: 33px;
+        width: 99px;
+        height: 62px;
     }
 
     nav > ul {
@@ -435,9 +435,9 @@ High-res laptop or desktop: 1920 x 1080.
         color: white;
         display: inline-block;
         position: absolute;
-        top: 29px;
-        left: 75px;
-        font-size: 2em;
+        top: -3px;
+        left: 115px;
+        font-size: 2.4em;
     }
 
     .sessao3 h3 {
