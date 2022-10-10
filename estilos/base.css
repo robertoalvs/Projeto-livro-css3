@@ -8,7 +8,6 @@
 }
 
 
-
 /* ====== Div que engloba todo o conteudo */
 
 div#container {
@@ -16,14 +15,12 @@ div#container {
     margin: auto;
     width: 1080px;
     height: 100%;
-    /* background-color: rgba(176, 176, 109, 0.317); */
     background-image: url(../img/bg_page.png);
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 /* ====== FIM - Div que engloba todo o conteudo */
-
 
 
 /* ====== Cabeçario e Menu ====== */
@@ -38,7 +35,6 @@ header {
     background-image: url(../img/fundo-verde-1.jpg);
     height: 120px;
     padding-top: 5px;
-    
 }
 
 /* ====== LOGO ====== */
@@ -75,14 +71,11 @@ header {
     margin-left: 23px;
     width: 140px;
     height: 90px;
-    /* transition: transform 0.5s; */
-    /* transition: transform 1s; */
 }
 
 .cubo-animado {
 
     animation: piscando 2s linear infinite;
-    
 }
 
 @keyframes piscando {
@@ -123,7 +116,6 @@ nav >ul li.menu1, li.menu2, li.menu3, li.menu4 {
     border-style: groove;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
-    
 }
 
 nav >ul ul {
@@ -132,12 +124,10 @@ nav >ul ul {
     visibility: hidden;
 }
 
-
 nav >ul ul.sub-menu1, ul.sub-menu2, ul.sub-menu3, ul.sub-menu4 {
 
     visibility: hidden;   
 }
-
 
 nav >ul ul li {
 
@@ -163,7 +153,6 @@ nav >ul li.menu1:hover ul, li.menu2:hover ul, li.menu3:hover ul, li.menu4:hover 
     cursor: pointer;
 }
 
-
 nav > ul li.menu1:hover, li.menu2:hover, li.menu3:hover, li.menu4:hover {
 
     background-color: rgba(165, 42, 42, 0.164);
@@ -182,7 +171,6 @@ nav > ul li.animacao:hover {
     to {opacity: 1;}
 }
 /* =============== FIM MENU NAVEGAÇÃO =============*/
-
 
 
 /* =========== LINKS ===================== */
@@ -317,7 +305,6 @@ div#sidebar {
     margin-left: 8px;
     margin-top: 6px;
     background: rgba(225,237,235,.5);
-    
 }
 
 #sidebar p {
@@ -342,8 +329,6 @@ aside h3 {
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.227);
 }
 /* ================= FIM BARRA LATERAL =============*/
-
-
 
 
 /* =================== RODAPÉ ===============*/

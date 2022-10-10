@@ -209,7 +209,6 @@ High-res laptop or desktop: 1920 x 1080.
 /* ====================== FIM 500px =====================================*/
 
 
-
 @media screen and (min-width: 600px) and (max-width: 768px) and (orientation: portrait){
     
 
@@ -324,7 +323,6 @@ High-res laptop or desktop: 1920 x 1080.
 
         padding-bottom: 15px;
         text-align: start;
-
     }
 
     .sessao1 >p , .sessao2 > p {
@@ -422,7 +420,6 @@ High-res laptop or desktop: 1920 x 1080.
         top: 85px;
         left: 71px;
         gap: 20px;
-        
     }
 
     nav >ul >li {
@@ -466,7 +463,6 @@ High-res laptop or desktop: 1920 x 1080.
 
         padding-bottom: 15px;
         text-align: start;
-
     }
 
     div#sidebar {
@@ -512,11 +508,26 @@ High-res laptop or desktop: 1920 x 1080.
         width: 63.5%;
     }
 
+    nav .menu-principal {
+
+        position: absolute;
+        top: 45px;
+        left: 570px;
+        display: flex;
+        gap: 10px;
+    }
+
+    nav > ul > li.menu1, li.menu2, li.menu3, li.menu4 {
+       
+        width: 78px;
+        text-align: center;
+    }
+
     div#sidebar {
 
         width: 97%;
         height: 98.5%;
-        margin-left: 0px;
+        margin-left: 1.7%;
     }
 
     #sidebar p {
