@@ -185,14 +185,17 @@ High-res laptop or desktop: 1920 x 1080.
     
     div#footer2 {
 
+        display: flex;
+        justify-content: space-between;
         width: 99%;
         height: 35px;
     }
 
     div#footer2 > p {
 
-       font-size: 0.8em;
+       font-size: 0.75em;
        color: white;
+       text-transform: uppercase;
     }
 
     .img-sociais {
@@ -200,6 +203,8 @@ High-res laptop or desktop: 1920 x 1080.
         width: 24px;
         height: 24px;
     }
+
+
 }
 /* ====================== FIM 500px =====================================*/
 
