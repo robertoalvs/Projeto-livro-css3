@@ -179,9 +179,18 @@ High-res laptop or desktop: 1920 x 1080.
 
     iframe {
 
-       
+       width: 390px;
+       height: 200px;
     }
 
+    div#sidebar > div.iframe> p.paragrafo-iframe {
+
+        font-size: 1.2em;
+        background-color: transparent;
+        border: none;
+        color: #26511d;
+
+    }
 
     footer {
 
