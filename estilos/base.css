@@ -348,13 +348,15 @@ iframe {
 }
 
 .nav-iframe {
-
+    
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
 .li-iframe {
 
-    list-style: none;
-    margin: auto;
+    margin: 0;    
+    list-style-image: url(../img/ponto-de-pin.png);
 }
 
 
