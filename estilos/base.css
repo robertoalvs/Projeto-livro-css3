@@ -351,11 +351,11 @@ iframe {
     
     margin-top: 30px;
     margin-left: 50px;
+    display: block;
 }
 
-.li-iframe {
-
-    margin: 0;    
+.li-iframe {  
+    
     list-style-image: url(../img/ponto-de-pin.png);
 }
 
