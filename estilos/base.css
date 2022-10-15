@@ -382,6 +382,8 @@ iframe {
 .li-iframe:hover {
 
     background-color: #4763415e;
+    transition-property: background-color, border-radius;
+    transition-duration: 2s;
 }
 
 @keyframes marcadores {
