@@ -189,7 +189,7 @@ High-res laptop or desktop: 1920 x 1080.
         background-color: transparent;
         border: none;
         color: #26511d;
-
+        margin-bottom: -20px;
     }
 
     footer {
@@ -374,11 +374,20 @@ High-res laptop or desktop: 1920 x 1080.
         font-size: 1.3em;
     }
 
-    #sidebar p {
+    div#sidebar > div.iframe> p.paragrafo-iframe {
 
-        font-size: 1.4em;
-        text-transform: lowercase;
+        font-size: 1.2em;
+        background-color: transparent;
+        border: none;
+        color: #26511d;
+        margin-bottom: -20px;
     }
+
+    iframe {
+
+        width: 490px;
+        height: 200px;
+     }
 
     footer {
 
