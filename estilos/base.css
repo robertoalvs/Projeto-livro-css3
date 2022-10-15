@@ -174,7 +174,8 @@ nav > ul li.animacao:hover {
 
 
 /* =========== LINKS ===================== */
-a {
+.link-menu {
+
     text-decoration: none;
     color: white;
     margin: 0;
@@ -182,9 +183,9 @@ a {
     box-sizing: border-box;
 }
 
-span.logo-blue  a:visited {
+.link-menu:visited {
 
-    color: blue;
+    color: #26511d;
 }
 /* ================ FIM LINKS ===================== */
 
@@ -338,8 +339,8 @@ aside h3 {
 
     transform: scale(2);
 }
-/* ================= FIM BARRA LATERAL =============*/
 
+/* ===============IFRAME ============*/
 iframe {
 
     margin: auto;
@@ -353,16 +354,22 @@ iframe {
    margin-top: 25px;
    margin-right: 20px;
    margin-left: 20px;
-   
-
 }
 
+/* ============== Marcadores e efeito ============*/
 .nav-iframe  span {
 
     padding-right: 10px;
     display: inline-block;
-    animation: marcadores 2s linear infinite;
+    animation: marcadores 1s linear infinite;
     color: black;
+}
+
+@keyframes marcadores {
+
+    0% {opacity: 1;}
+    50% {opacity: 0.2;}
+    100% {opacity: 3;}
 }
 
 .li-iframe {  
@@ -383,15 +390,18 @@ iframe {
 
     background-color: #4763415e;
     transition-property: background-color, border-radius;
-    transition-duration: 2s;
+    transition-duration: 3s;
 }
 
-@keyframes marcadores {
+/* ================= links =============*/
 
-    0% {opacity: 1;}
-    50% {opacity: 0.2;}
-    100% {opacity: 3;}
-}
+   nav.iframe, .li-iframe, .link-aside {
+
+        color: #26511d;
+        text-decoration: none;
+    }
+/* ================= FIM BARRA LATERAL =============*/
+
 
 /* =================== RODAPÉ ===============*/
 
