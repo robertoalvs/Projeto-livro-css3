@@ -348,15 +348,29 @@ iframe {
 }
 
 .nav-iframe {
-    
-    margin-top: 30px;
-    margin-left: 50px;
-    display: block;
+
+   display: block;
+   margin-top: 25px;
+   margin-right: 20px;
+   margin-left: 20px;
+   
+
+}
+
+.nav-iframe  span {
+
+    padding-right: 10px;
+    display: inline-block;
 }
 
 .li-iframe {  
-    
-    list-style-image: url(../img/ponto-de-pin.png);
+
+   list-style-position: inside;
+   margin-bottom: 20px;
+   list-style: none;
+   box-shadow: 0px 0px 10px 0px black;
+   padding: 10px;
+   border-radius: 5px;
 }
 
 
