@@ -60,6 +60,17 @@ header {
     color: orange;
 }
 
+.logo-green {
+
+    animation: piscando 1s linear infinite;
+}
+
+@keyframes piscando {
+
+    0% {opacity: 1;}
+    50% {opacity: 0.2;}
+    100% {opacity: 3;}
+}
 
 .cubo {
 
@@ -72,7 +83,7 @@ header {
     width: 140px;
     height: 90px;
 }
-/* ========== ANIMAÇÃO =========== */
+/* ========== ANIMAÇÃO =========== 
 .cubo-animado {
 
     animation: piscando 2s linear infinite;
@@ -89,7 +100,7 @@ header {
 
     animation-play-state: paused;
 }
-/* ====== FIM ANIMAÇÃO ====== */
+====== FIM ANIMAÇÃO ====== */
 
 h1 {
     margin-top: 30px;
