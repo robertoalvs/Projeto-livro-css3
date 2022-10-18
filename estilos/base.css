@@ -375,6 +375,13 @@ iframe {
    margin-left: 20px;
 }
 
+li.efeito-nome {
+
+    text-align: center;
+    font-size: 1.3em;
+   
+}
+
 /* ============== Marcadores e efeito ============*/
 .nav-iframe  span {
 
