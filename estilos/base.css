@@ -406,11 +406,22 @@ aside > nav.iframe, .efeito-nome::after {
 
 @keyframes troca-nomes {
 
-    5% {content: 'Meu Pc Gamer';}
-    25% {content: '';}
-    45% {content: 'Core I9 10850K';}
-    65% {content: '';}
-    85% {content: 'RTX 2070';}
+    5% {content: 'MEU PC GAMER';}
+    10% {content: '';}
+    25% {content: 'GABINETE VIEW51';}
+    30% {content: '';}
+    40% {content: 'ASUS Z590 WIFI PLUS';}
+
+    45% {content: '';}
+    55% {content: 'CORE I9 10850K';}
+    60% {content: '';}
+    70% {content: 'WALTER COOLER 360';}
+    75% {content: '';}
+
+    80% {content: '32GB MEMÓRIA';}
+    85% {content: '';}
+    95% {content: '12 FANS';}
+    100% {content: '';}
 } 
 
 ul .li-iframe {  
