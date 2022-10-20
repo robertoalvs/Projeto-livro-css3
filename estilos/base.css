@@ -361,8 +361,7 @@ aside h3 {
 
 /* ===============IFRAME ============*/
 iframe {
-
-    margin: auto;
+    
     margin: 10px 0 10px 12px;
     box-shadow: 0px 0px 10px 0px black;
 }

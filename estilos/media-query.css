@@ -512,8 +512,13 @@ High-res laptop or desktop: 1920 x 1080.
         font-size: 1.2em;
         text-transform: lowercase;
         text-align: center;
-    
     }
+
+    iframe {
+
+        width: 615px;
+        height: 250px;
+     }
 
     footer {
 
@@ -576,6 +581,27 @@ High-res laptop or desktop: 1920 x 1080.
         width: 33%;
         float: right; 
         height: 940px;
+        margin-right: 10px;
     }
+
+    iframe {
+
+        width: 280px;
+        height: 200px;
+        margin-left: 0px;
+     }
+
+     div#sidebar > div.iframe> p.paragrafo-iframe {
+
+        width: 280px;
+        margin-top: 20px;
+        margin-left: -1px;
+     }
+
+     .nav-iframe > li {
+
+        width: 270px;
+        margin-left: -15px;
+     }
 }
 /* ====================== FIM 992px ==============================*/
