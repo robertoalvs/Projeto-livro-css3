@@ -139,7 +139,7 @@ nav >ul li.menu1, li.menu2, li.menu3, li.menu4 {
 nav >ul ul {
 
     position: absolute;
-    visibility: hidden;
+
 }
 
 nav >ul ul.sub-menu1, ul.sub-menu2, ul.sub-menu3, ul.sub-menu4 {
